@@ -18,7 +18,7 @@ main {
 img {
     width: 100%;
     height: auto;
-    max-width: 400px;
+    max-width: 560px;
 }
 
 .favourite-work {
@@ -26,5 +26,9 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+}
+
+section {
+    margin-bottom: 1.5%;
 }
 
