@@ -1,0 +1,30 @@
+:root {
+    scrollbar-width: thin;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #f6eee3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+.favourite-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
